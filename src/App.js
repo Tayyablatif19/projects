@@ -1,24 +1,32 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './Components/Navbar';
+import Form from './Components/Form';
+import Todo from './Components/Todo';
+import Color from './Components/Color'; 
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+<>
+    <Navbar/>
+
+    <p class="text-center my-3 fs-2"><strong>SIMPLE FORM</strong></p>
+
+    <Form />
+
+    <p class="text-center my-3 fs-2"><strong>TO-DO LIST</strong></p>
+
+    <Todo />
+
+    <p class="text-center my-3 fs-2"><strong>COLOR CHANGE</strong></p>
+
+    <Color />
+
+
+
+    
+</>
+   
+
   );
 }
 
