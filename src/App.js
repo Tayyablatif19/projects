@@ -3,6 +3,7 @@ import Navbar from './Components/Navbar';
 import Form from './Components/Form';
 import Todo from './Components/Todo';
 import Color from './Components/Color'; 
+import Temp from './Components/Temp';
 
 function App() {
   return (
@@ -21,6 +22,9 @@ function App() {
 
     <Color />
 
+    <p class="text-center my-3 fs-2"><strong>TempControl</strong></p>
+
+    <Temp />
 
 
     
